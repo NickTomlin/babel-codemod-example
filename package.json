@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "dependencies": {
-    "ava": "^0.22.0"
-  },
   "devDependencies": {
-    "babel-codemod": "^1.2.0"
+    "babel-codemod": "^1.2.0",
+    "ava": "^0.22.0"
   },
   "scripts": {
     "test": "ava test/**/*.test.js"
